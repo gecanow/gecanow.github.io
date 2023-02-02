@@ -72,7 +72,7 @@ th, td {
   left: 10%;
   max-width: 80%;
   background: rgba(255, 255, 255, .75);
-  padding: 1em;
+  padding: 40px 20px;
 }
 #main-frame > :first-child { margin-top: 0; }
 #main-frame > :last-child { margin-bottom: 0; }
@@ -114,16 +114,19 @@ h2:target p {
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color:rgb(201, 102, 160);
-    position: fixed;
     top: 0;
-    width: 100%;
     height: 40px;
     border-radius: 0;
     z-index: 1;
     color: white;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+}
+.themeBar {
+    background-color:rgb(201, 102, 160);
+    width: 100%;
+    /* position: fixed; */
 }
 .navbar p {
     margin: 12px;
